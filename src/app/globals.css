@@ -14,6 +14,15 @@
   }
 }
 
+@layer components {
+  .w-nav {
+    @apply w-full bg-primary flex py-3 lg:py-4 justify-center fixed z-50;
+  }
+  .nav-content {
+    @apply w-full max-w-desk flex justify-between items-center px-6 lg:px-0;
+  }
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
