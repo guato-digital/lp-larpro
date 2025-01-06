@@ -3,7 +3,7 @@ import "./globals.css";
 // import { Logo } from "@/components/Logo";
 import Image from "next/image";
 import logoImage from "@/assets/logo.png";
-import { List } from "@phosphor-icons/react/dist/ssr";
+import { MobileNavbar } from "@/components/MobileNavbar";
 
 export const metadata: Metadata = {
   title: "LarPró",
@@ -32,7 +32,7 @@ export default function RootLayout({
                 Dúvidas Frequentes
               </li>
             </ul>
-            <List className="text-white w-6 h-6 lg:hidden" />
+            <MobileNavbar />
           </div>
         </header>
         {children}

@@ -99,7 +99,10 @@ export default function Home() {
 
         <div className="w-full h-28 bg-bullets bg-cover bg-no-repeat bg-center absolute z-30 -mt-10"></div>
 
-        <section className="w-full flex justify-center px-6 lg:px-0 pt-10 mt-14 lg:mt-28">
+        <section
+          className="w-full flex justify-center px-6 lg:px-0 pt-10 mt-14 lg:mt-28"
+          id="servicos"
+        >
           <div className="w-full max-w-[1440px]">
             <span className="bg-primary/10 text-primary font-bold text-sm rounded-[100px] px-6 py-3 tracking-[2px]">
               SERVIÇOS
@@ -143,7 +146,10 @@ export default function Home() {
           <BulletsCarousel />
         </section>
 
-        <section className="w-full flex justify-center px-6 lg:px-0 pt-10">
+        <section
+          className="w-full flex justify-center px-6 lg:px-0 pt-10"
+          id="beneficios"
+        >
           <div className="w-full max-w-[1440px] lg:flex lg:flex-col lg:items-center">
             <h1 className="text-xl font-bold text-black-500 w-full max-w-80 leading-8 lg:text-center lg:text-[32px] lg:max-w-full">
               Tudo em um só lugar, fácil, rápido e seguro.
@@ -352,10 +358,13 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="w-full flex flex-col justify-center lg:items-center px-6 lg:px-0 pt-10 lg:mt-40">
+        <section
+          className="w-full flex flex-col justify-center lg:items-center px-6 lg:px-0 pt-10 lg:mt-40"
+          id="faqs"
+        >
           <div className="w-full max-w-[1440px] flex flex-col lg:flex-row lg:items-center justify-center items-center">
             <div className="w-full max-w-desk flex flex-col lg:flex-row lg:items-center lg:gap-20">
-              <div className="w-full">
+              <div className="w-full flex flex-col items-center lg:items-start">
                 <span className="bg-primary/10 text-primary font-bold text-sm rounded-[100px] px-6 py-3 tracking-[2px]">
                   FAQS
                 </span>
