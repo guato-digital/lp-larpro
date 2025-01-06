@@ -42,6 +42,7 @@ export default {
       },
       backgroundImage: {
         cta: "url(/background-cta.png)",
+        bullets: "url(/bullets.png)",
       },
       keyframes: {
         "accordion-down": {
