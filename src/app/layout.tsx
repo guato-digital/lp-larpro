@@ -32,7 +32,7 @@ export default function RootLayout({
                 Dúvidas Frequentes
               </li>
             </ul>
-            <List className="text-white w-6 h-6" />
+            <List className="text-white w-6 h-6 lg:hidden" />
           </div>
         </header>
         {children}
