@@ -18,7 +18,6 @@ import {
 
 import { AppStoreLogo } from "@/components/AppStoreLogo";
 import { CardIcon } from "@/components/CardIcon";
-import { BulletsCarousel } from "@/components/BulletsCarousel";
 
 import {
   Accordion,
@@ -51,9 +50,9 @@ export default function Home() {
 
   return (
     <>
-      <main className="pt-20 lg:pt-32">
-        <section className="w-full flex justify-center px-6 lg:px-0 pt-10 bg-header bg-center bg-cover">
-          <div className="w-full max-w-desk flex flex-col lg:flex-row">
+      <main className="pt-16 lg:pt-28">
+        <section className="w-full flex justify-center px-6 xl:px-7 lg:px-7 pt-10 bg-header bg-center bg-cover">
+          <div className="w-full max-w-screen-xl flex flex-col lg:flex-row">
             <div className="flex flex-col lg:justify-center items-start">
               <span className="bg-primary/10 text-primary font-bold text-sm rounded-[100px] px-6 py-3 tracking-[2px] lg:-mt-40">
                 LARPRÓ
@@ -105,10 +104,10 @@ export default function Home() {
         <div className="w-full h-28 bg-bullets bg-cover bg-no-repeat bg-center absolute z-30 -mt-10"></div>
 
         <section
-          className="w-full flex justify-center px-6 lg:px-0 pt-10 mt-14 lg:mt-28"
+          className="w-full flex justify-center px-6 pt-10 mt-14 lg:mt-28 xl:px-7 lg:px-7 "
           id="servicos"
         >
-          <div className="w-full max-w-[1440px]">
+          <div className="w-full max-w-screen-xl">
             <span className="bg-primary/10 text-primary font-bold text-sm rounded-[100px] px-6 py-3 tracking-[2px]">
               SERVIÇOS
             </span>
@@ -122,7 +121,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="hidden lg:flex gap-4 mt-12">
+            <div className="flex flex-col lg:flex-row gap-4 mt-12">
               <CardIcon
                 Icon={GearSix}
                 title="Consertos e reparos"
@@ -147,15 +146,11 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="w-full mt-10">
-          <BulletsCarousel />
-        </section>
-
         <section
-          className="w-full flex justify-center px-6 lg:px-0 pt-10 bg-benefits bg-cover bg-center bg-no-repeat"
+          className="w-full flex justify-center px-6 pt-10 bg-benefits bg-cover bg-center bg-no-repeat xl:px-7 lg:px-7 "
           id="beneficios"
         >
-          <div className="w-full max-w-[1440px] lg:flex lg:flex-col lg:items-center">
+          <div className="w-full max-w-screen-xl lg:flex lg:flex-col lg:items-center">
             <h1 className="text-xl font-semibold text-black-500 w-full max-w-80 leading-8 lg:text-center lg:text-[32px] lg:max-w-full">
               Tudo em um só lugar, fácil, rápido e seguro.
             </h1>
@@ -270,8 +265,8 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="w-full flex justify-center px-6 lg:px-0 pt-10">
-          <div className="w-full max-w-[1440px] flex flex-col justify-center items-center">
+        <section className="w-full flex justify-center px-6 xl:px-7 lg:px-7 pt-10">
+          <div className="w-full max-w-screen-xl flex flex-col justify-center items-center">
             <span className="bg-primary/10 text-primary font-bold text-sm rounded-[100px] px-6 py-3 tracking-[2px]">
               PARA PRESTADORES
             </span>
@@ -364,11 +359,11 @@ export default function Home() {
         </section>
 
         <section
-          className="w-full flex flex-col justify-center lg:items-center px-6 lg:px-0 pt-10 lg:mt-40"
+          className="w-full flex flex-col justify-center lg:items-center px-6 pt-10 lg:mt-40 xl:px-7 lg:px-7 "
           id="faqs"
         >
-          <div className="w-full max-w-[1440px] flex flex-col lg:flex-row lg:items-center justify-center items-center">
-            <div className="w-full max-w-desk flex flex-col lg:flex-row lg:items-center lg:gap-20">
+          <div className="w-full max-w-screen-xl flex flex-col lg:flex-row lg:items-center justify-center items-center">
+            <div className="w-full max-w-screen-xl flex flex-col lg:flex-row lg:items-center lg:gap-20">
               <div className="w-full flex flex-col items-center lg:items-start">
                 <span className="bg-primary/10 text-primary font-bold text-sm rounded-[100px] px-6 py-3 tracking-[2px]">
                   FAQS
@@ -462,7 +457,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="w-full max-w-desk mt-8 lg:mt-12">
+          <div className="w-full max-w-screen-xl mt-8 lg:mt-12">
             <h1 className="text-black-500 text-2xl font-bold lg:text-[32px]">
               Tem mais dúvidas?
             </h1>
@@ -472,8 +467,8 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="hidden lg:flex justify-center mt-44">
-          <div className="w-full max-w-[1440px] h-[445px] bg-cta rounded-[40px] flex items-center justify-between px-20">
+        <section className="hidden lg:flex justify-center mt-44 xl:px-7 lg:px-7">
+          <div className="w-full max-w-screen-xl h-[445px] bg-cta rounded-[40px] flex items-center justify-between px-20">
             <div className="w-full max-w-[674px]">
               <h1 className="font-bold text-white text-4xl">
                 Baixe o LarPro e o LarPro Prestadores
@@ -632,8 +627,8 @@ export default function Home() {
         </section>
       </main>
 
-      <footer className="w-full px-6 py-14 mt-14 lg:flex lg:flex-col lg:items-center">
-        <div className="w-full max-w-desk flex flex-col lg:items-center">
+      <footer className="w-full px-6 py-14 mt-14 lg:flex lg:flex-col lg:items-center xl:px-7 lg:px-7">
+        <div className="w-full max-w-screen-xl flex flex-col lg:items-center">
           <div className="lg:w-full lg:flex lg:justify-between">
             <div className="flex flex-col lg:max-w-[272px]">
               <Image src={logo} alt="LarPró" className="w-[70px] h-[90px]" />
