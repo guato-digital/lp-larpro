@@ -52,7 +52,7 @@ export default function Home() {
   return (
     <>
       <main className="pt-20 lg:pt-32">
-        <section className="w-full flex justify-center px-6 lg:px-0 pt-10">
+        <section className="w-full flex justify-center px-6 lg:px-0 pt-10 bg-header bg-center bg-cover">
           <div className="w-full max-w-desk flex flex-col lg:flex-row">
             <div className="flex flex-col lg:justify-center items-start">
               <span className="bg-primary/10 text-primary font-bold text-sm rounded-[100px] px-6 py-3 tracking-[2px] lg:-mt-40">
@@ -152,7 +152,7 @@ export default function Home() {
         </section>
 
         <section
-          className="w-full flex justify-center px-6 lg:px-0 pt-10"
+          className="w-full flex justify-center px-6 lg:px-0 pt-10 bg-benefits bg-cover bg-center bg-no-repeat"
           id="beneficios"
         >
           <div className="w-full max-w-[1440px] lg:flex lg:flex-col lg:items-center">
