@@ -26,7 +26,10 @@ export default function RootLayout({
         <meta name="author" content="LarPró" />
         <link rel="icon" href="/favicon.ico" />
 
-        <meta property="og:url" content="https://larpro.com" />
+        <meta
+          property="og:url"
+          content="https://lp-larpro-git-develop-guato-digitals-projects-c02ea4fe.vercel.app"
+        />
         <meta property="og:site_name" content="LarPró" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="LarPró" />
@@ -34,7 +37,10 @@ export default function RootLayout({
           property="og:description"
           content="Soluções para o seu dia a dia, a um toque!"
         />
-        <meta property="og:image" content="https://larpro.com/favicon.ico" />
+        <meta
+          property="og:image"
+          content="https://lp-larpro-git-develop-guato-digitals-projects-c02ea4fe.vercel.app/favicon.ico"
+        />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
 
@@ -44,7 +50,10 @@ export default function RootLayout({
           name="twitter:description"
           content="Soluções para o seu dia a dia, a um toque!"
         />
-        <meta name="twitter:image" content="https://larpro.com/favicon.ico" />
+        <meta
+          name="twitter:image"
+          content="https://lp-larpro-git-develop-guato-digitals-projects-c02ea4fe.vercel.app/favicon.ico"
+        />
       </head>
       <body>
         <header className="w-nav">
