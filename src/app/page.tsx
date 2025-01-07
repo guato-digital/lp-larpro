@@ -7,11 +7,9 @@ import {
   ChatTeardropText,
   CheckCircle,
   Confetti,
-  FacebookLogo,
   GearSix,
   InstagramLogo,
   Lightning,
-  LinkedinLogo,
   NavigationArrow,
   Sparkle,
   Star,
@@ -19,7 +17,6 @@ import {
 } from "@phosphor-icons/react/dist/ssr";
 
 import { AppStoreLogo } from "@/components/AppStoreLogo";
-import { PlayStoreLogo } from "@/components/PlayStoreLogo";
 import { CardIcon } from "@/components/CardIcon";
 import { BulletsCarousel } from "@/components/BulletsCarousel";
 
@@ -44,6 +41,8 @@ import faq4 from "@/assets/faq/4.png";
 import faq5 from "@/assets/faq/5.png";
 
 import playStoreLogo from "@/assets/playstore-logo.png";
+import { FacebookLogo } from "@/components/FacebookLogo";
+import { LinkedinLogo } from "@/components/LinkedinLogo";
 
 export default function Home() {
   const [faqSelected, setFaqSelected] = useState(0);
@@ -687,10 +686,10 @@ export default function Home() {
                 <InstagramLogo className="text-white" size={24} />
               </span>
               <span className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-                <FacebookLogo className="text-white" size={24} />
+                <FacebookLogo />
               </span>
               <span className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-                <LinkedinLogo className="text-white" size={24} />
+                <LinkedinLogo />
               </span>
             </div>
           </div>
