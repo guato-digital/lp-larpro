@@ -43,6 +43,8 @@ import faq3 from "@/assets/faq/3.png";
 import faq4 from "@/assets/faq/4.png";
 import faq5 from "@/assets/faq/5.png";
 
+import playStoreLogo from "@/assets/playstore-logo.png";
+
 export default function Home() {
   const [faqSelected, setFaqSelected] = useState(0);
 
@@ -70,7 +72,11 @@ export default function Home() {
                 </p>
                 <div className="mt-4 w-full flex justify-between gap-5 lg:max-w-[404px]">
                   <button className="w-full max-w-48 py-2 px-4 bg-black-500 rounded-lg flex gap-3 items-center">
-                    <PlayStoreLogo />
+                    <Image
+                      src={playStoreLogo}
+                      alt="Baixe LarPró na PlayStore"
+                      className="w-[27px] h-[30px]"
+                    />
                     <span className="flex flex-col text-[10px] lg:text-xs text-white text-left">
                       Disponível na
                       <p className="text-base lg:text-xl text-white font-bold">
@@ -484,7 +490,11 @@ export default function Home() {
                     LarPro para Clientes
                   </p>
                   <button className="w-full max-w-48 py-2 px-4 bg-black-500 rounded-lg flex gap-3 items-center">
-                    <PlayStoreLogo />
+                    <Image
+                      src={playStoreLogo}
+                      alt="Baixe LarPró na PlayStore"
+                      className="w-[27px] h-[30px]"
+                    />
                     <span className="flex flex-col text-[10px] lg:text-xs text-white text-left">
                       Disponível na
                       <p className="text-base lg:text-xl text-white font-bold">
@@ -509,7 +519,11 @@ export default function Home() {
                     LarPro para Prestadores
                   </p>
                   <button className="w-full max-w-48 py-2 px-4 bg-black-500 rounded-lg flex gap-3 items-center">
-                    <PlayStoreLogo />
+                    <Image
+                      src={playStoreLogo}
+                      alt="Baixe LarPró na PlayStore"
+                      className="w-[27px] h-[30px]"
+                    />
                     <span className="flex flex-col text-[10px] lg:text-xs text-white text-left">
                       Disponível na
                       <p className="text-base lg:text-xl text-white font-bold">
@@ -556,7 +570,11 @@ export default function Home() {
                     LarPro para Clientes
                   </p>
                   <button className="w-full  py-2 px-4 bg-black-500 rounded-lg flex gap-3 items-center">
-                    <PlayStoreLogo />
+                    <Image
+                      src={playStoreLogo}
+                      alt="Baixe LarPró na PlayStore"
+                      className="w-[27px] h-[30px]"
+                    />
                     <span className="flex flex-col text-[10px] lg:text-xs text-white text-left">
                       Disponível na
                       <p className="text-xs lg:text-xl text-white font-bold">
@@ -581,7 +599,11 @@ export default function Home() {
                     LarPro para Prestadores
                   </p>
                   <button className="w-full  py-2 px-4 bg-black-500 rounded-lg flex gap-3 items-center">
-                    <PlayStoreLogo />
+                    <Image
+                      src={playStoreLogo}
+                      alt="Baixe LarPró na PlayStore"
+                      className="w-[27px] h-[30px]"
+                    />
                     <span className="flex flex-col text-[10px] lg:text-xs text-white text-left">
                       Disponível na
                       <p className="text-xs lg:text-xl text-white font-bold">
@@ -635,7 +657,11 @@ export default function Home() {
 
               <div className="w-full max-w-44 mt-6 hidden lg:flex flex-col gap-5 lg:max-w-[440px] lg:flex-row">
                 <button className="w-full  py-2 px-4 bg-black-500 rounded-lg flex gap-3 items-center">
-                  <PlayStoreLogo />
+                  <Image
+                    src={playStoreLogo}
+                    alt="Baixe LarPró na PlayStore"
+                    className="w-[27px] h-[30px]"
+                  />
                   <span className="flex flex-col text-[10px] lg:text-xs text-white text-left">
                     Disponível na
                     <p className="text-xs lg:text-xl text-white font-bold">
@@ -671,7 +697,11 @@ export default function Home() {
 
           <div className="w-full max-w-44 mt-6 flex lg:hidden flex-col gap-5 lg:max-w-[440px] lg:flex-row">
             <button className="w-full  py-2 px-4 bg-black-500 rounded-lg flex gap-3 items-center">
-              <PlayStoreLogo />
+              <Image
+                src={playStoreLogo}
+                alt="Baixe LarPró na PlayStore"
+                className="w-[27px] h-[30px]"
+              />
               <span className="flex flex-col text-[10px] lg:text-xs text-white text-left">
                 Disponível na
                 <p className="text-xs lg:text-xl text-white font-bold">

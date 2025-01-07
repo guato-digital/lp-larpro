@@ -32,7 +32,9 @@ export default function RootLayout({
                 Dúvidas Frequentes
               </li>
             </ul>
-            <MobileNavbar />
+            <div className="flex lg:hidden">
+              <MobileNavbar />
+            </div>
           </div>
         </header>
         {children}
