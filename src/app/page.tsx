@@ -63,10 +63,9 @@ export default function Home() {
                   <span className="text-primary">a um toque</span>!
                 </h1>
                 <p className="text-black-150 text-base lg:text-xl">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse varius enim in eros elementum tristique. Duis
-                  cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
-                  commodo diam libero vitae erat.
+                  Encontre eletricistas, encanadores, pintores, diaristas,
+                  técnicos e muito mais. Tudo em um só lugar, com praticidade e
+                  confiança!
                 </p>
                 <div className="mt-4 w-full flex justify-between gap-5 lg:max-w-[404px]">
                   <button className="w-full max-w-48 py-2 px-4 bg-black-500 rounded-lg flex gap-3 items-center">
@@ -385,7 +384,7 @@ export default function Home() {
                       value="item-1"
                       onClick={() => setFaqSelected(1)}
                     >
-                      <AccordionTrigger className="text-left">
+                      <AccordionTrigger className="text-left font-semibold">
                         O LarPro é realmente gratuito?
                       </AccordionTrigger>
                       <AccordionContent>
@@ -396,7 +395,7 @@ export default function Home() {
                       value="item-2"
                       onClick={() => setFaqSelected(2)}
                     >
-                      <AccordionTrigger className="text-left">
+                      <AccordionTrigger className="text-left font-semibold">
                         Como posso encontrar prestadores perto de mim?
                       </AccordionTrigger>
                       <AccordionContent>
@@ -408,7 +407,7 @@ export default function Home() {
                       value="item-3"
                       onClick={() => setFaqSelected(3)}
                     >
-                      <AccordionTrigger className="text-left">
+                      <AccordionTrigger className="text-left font-semibold">
                         Como faço para avaliar um prestador de serviço?
                       </AccordionTrigger>
                       <AccordionContent>
@@ -421,7 +420,7 @@ export default function Home() {
                       value="item-4"
                       onClick={() => setFaqSelected(4)}
                     >
-                      <AccordionTrigger className="text-left">
+                      <AccordionTrigger className="text-left font-semibold">
                         Preciso de uma ferramenta específica para usar o chat em
                         tempo real?
                       </AccordionTrigger>
@@ -435,7 +434,7 @@ export default function Home() {
                       value="item-5"
                       onClick={() => setFaqSelected(5)}
                     >
-                      <AccordionTrigger className="text-left">
+                      <AccordionTrigger className="text-left font-semibold">
                         Sou prestador. Como os clientes me encontram?
                       </AccordionTrigger>
                       <AccordionContent>

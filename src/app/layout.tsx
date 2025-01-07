@@ -16,6 +16,29 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content="Soluções para o seu dia a dia, a um toque!"
+        />
+        <meta name="author" content="LarPró" />
+        <link rel="icon" href="/favicon.ico" />
+        <meta property="og:url" content="https://larpro.com" />
+        <meta property="og:site_name" content="LarPró" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/favicon.ico" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Iklaim" />
+        <meta
+          name="twitter:description"
+          content="Soluções para o seu dia a dia, a um toque!"
+        />
+        <meta name="twitter:image" content="/favicon.ico" />
+      </head>
       <body>
         <header className="w-nav">
           <div className="nav-content">
