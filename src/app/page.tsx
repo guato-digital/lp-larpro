@@ -59,7 +59,7 @@ export default function Home() {
                 LARPRÓ
               </span>
               <div className="flex flex-col gap-4 mt-4">
-                <h1 className="text-[32px] font-bold text-black-500 w-full max-w-80 leading-[38px] lg:text-[64px] lg:max-w-[665px] lg:leading-[72px]">
+                <h1 className="text-[32px] font-bold text-black-500 w-full max-w-80 leading-[38px] lg:text-6xl lg:max-w-[665px] lg:leading-[72px]">
                   Soluções para o seu dia a dia,{" "}
                   <span className="text-primary">a um toque</span>!
                 </h1>
@@ -113,10 +113,10 @@ export default function Home() {
               SERVIÇOS
             </span>
             <div className="flex flex-col gap-4 mt-4 lg:flex-row lg:mt-6">
-              <h1 className="text-2xl font-bold text-black-500 w-full max-w-80 leading-[38px] lg:w-1/2 lg:max-w-full lg:text-5xl">
+              <h1 className="text-2xl font-bold text-black-500 w-full max-w-80 leading-[38px] lg:w-1/2 lg:max-w-full lg:text-[40px]">
                 Precisa de ajuda em casa?
               </h1>
-              <p className="text-black-150 text-base border-l-[2px] border-primary pl-3 lg:w-1/2 lg:max-w-full lg:text-2xl">
+              <p className="text-black-150 text-base border-l-[2px] border-primary pl-3 lg:w-1/2 lg:max-w-full lg:text-xl">
                 O LarPró conecta você aos melhores prestadores de serviços para
                 tudo o que você precisa:
               </p>
@@ -156,7 +156,7 @@ export default function Home() {
           id="beneficios"
         >
           <div className="w-full max-w-[1440px] lg:flex lg:flex-col lg:items-center">
-            <h1 className="text-xl font-bold text-black-500 w-full max-w-80 leading-8 lg:text-center lg:text-[32px] lg:max-w-full">
+            <h1 className="text-xl font-semibold text-black-500 w-full max-w-80 leading-8 lg:text-center lg:text-[32px] lg:max-w-full">
               Tudo em um só lugar, fácil, rápido e seguro.
             </h1>
             <p className="text-black-150 text-base mt-3 lg:text-center lg:text-xl lg:max-w-[900px]">
@@ -177,7 +177,7 @@ export default function Home() {
                 <span className="bg-primary/10 text-primary font-bold text-sm rounded-[100px] px-6 py-3 tracking-[2px]">
                   BENEFÍCIOS
                 </span>
-                <h1 className="text-2xl font-bold text-black-500 w-full max-w-80 leading-8 mt-6 lg:text-5xl lg:max-w-full">
+                <h1 className="text-2xl font-bold text-black-500 w-full max-w-80 leading-8 mt-6 lg:text-[40px] lg:max-w-full">
                   Por que escolher o LarPro?
                 </h1>
 
@@ -191,7 +191,7 @@ export default function Home() {
                         <span className="border border-primary border-dashed h-16" />
                       </div>
                       <div>
-                        <h2 className="text-black-500 text-xl font-bold lg:text-2xl">
+                        <h2 className="text-black-500 text-xl font-semibold lg:text-2xl">
                           Facilidade e Praticidade
                         </h2>
                         <p className="text-black-150 text-base lg:text-xl">
@@ -208,7 +208,7 @@ export default function Home() {
                         <span className="border border-primary border-dashed h-16" />
                       </div>
                       <div>
-                        <h2 className="text-black-500 text-xl font-bold lg:text-2xl">
+                        <h2 className="text-black-500 text-xl font-semibold lg:text-2xl">
                           Chat em Tempo Real
                         </h2>
                         <p className="text-black-150 text-base lg:text-xl">
@@ -229,7 +229,7 @@ export default function Home() {
                         <span className="border border-primary border-dashed h-16" />
                       </div>
                       <div>
-                        <h2 className="text-black-500 text-xl font-bold lg:text-2xl">
+                        <h2 className="text-black-500 text-xl font-semibold lg:text-2xl">
                           Escolha de Localidade
                         </h2>
                         <p className="text-black-150 text-base lg:text-xl">
@@ -246,7 +246,7 @@ export default function Home() {
                         </span>
                       </div>
                       <div>
-                        <h2 className="text-black-500 text-xl font-bold lg:text-2xl">
+                        <h2 className="text-black-500 text-xl font-semibold lg:text-2xl">
                           Avaliações Reais
                         </h2>
                         <p className="text-black-150 text-base lg:text-xl">
@@ -278,7 +278,7 @@ export default function Home() {
 
             <div className="w-full flex flex-col mt-6 items-center">
               {" "}
-              <h1 className="text-2xl font-bold text-black-500 text-center lg:text-5xl">
+              <h1 className="text-2xl font-bold text-black-500 text-center lg:text-[44px]">
                 LarPro Prestadores
               </h1>
               <p className="text-black-150 text-center text-base mt-4 lg:text-xl">
@@ -375,7 +375,7 @@ export default function Home() {
                 </span>
 
                 <div className="w-full flex flex-col mt-6 items-center lg:items-start">
-                  <h1 className="text-2xl font-bold text-black-500 text-center lg:text-5xl">
+                  <h1 className="text-2xl font-bold text-black-500 text-center lg:text-[44px]">
                     Dúvidas Frequentes
                   </h1>
                 </div>
