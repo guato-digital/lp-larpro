@@ -4,6 +4,7 @@ import "./globals.css";
 import Image from "next/image";
 import logoImage from "@/assets/logo.png";
 import { MobileNavbar } from "@/components/MobileNavbar";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "LarPró",
@@ -64,11 +65,17 @@ export default function RootLayout({
               alt="LarPró"
             />
             <ul className="hidden lg:flex gap-8">
-              <li className="text-xl font-normal text-white">Home</li>
-              <li className="text-xl font-normal text-white">Serviços</li>
-              <li className="text-xl font-normal text-white">Benefícios</li>
               <li className="text-xl font-normal text-white">
-                Dúvidas Frequentes
+                <Link href="#">Home</Link>
+              </li>
+              <li className="text-xl font-normal text-white">
+                <Link href="#servicos">Serviços</Link>
+              </li>
+              <li className="text-xl font-normal text-white">
+                <Link href="#beneficios">Benefícios</Link>
+              </li>
+              <li className="text-xl font-normal text-white">
+                <Link href="#faqs">Dúvidas Frequentes</Link>
               </li>
             </ul>
             <div className="flex lg:hidden">

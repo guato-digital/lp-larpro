@@ -42,6 +42,7 @@ import faq5 from "@/assets/faq/5.png";
 import playStoreLogo from "@/assets/playstore-logo.png";
 import { FacebookLogo } from "@/components/FacebookLogo";
 import { LinkedinLogo } from "@/components/LinkedinLogo";
+import Link from "next/link";
 
 export default function Home() {
   const [faqSelected, setFaqSelected] = useState(0);
@@ -638,13 +639,17 @@ export default function Home() {
 
             <div className="lg:flex lg:flex-col lg:items-center">
               <ul className="flex flex-col gap-6 text-xl my-8 lg:flex-row">
-                <li className=" text-black-500 hover:text-primary">Home</li>
-                <li className=" text-black-500 hover:text-primary">Serviços</li>
                 <li className=" text-black-500 hover:text-primary">
-                  Benefícios
+                  <Link href="#">Home</Link>
                 </li>
                 <li className=" text-black-500 hover:text-primary">
-                  Dúvidas Frequentes
+                  <Link href="#servicos">Serviços</Link>
+                </li>
+                <li className=" text-black-500 hover:text-primary">
+                  <Link href="#beneficios">Benefícios</Link>
+                </li>
+                <li className=" text-black-500 hover:text-primary">
+                  <Link href="#faqs">Dúvidas Frequentes</Link>
                 </li>
               </ul>
 
