@@ -19,7 +19,7 @@ import { CardIcon } from "@/components/CardIcon";
 import phoneImage from "@/assets/phone-mockup.png";
 import phoneCircle from "@/assets/phone-circle.png";
 import phoneCirclePink from "@/assets/phone-circle-pink.png";
-import phone from "@/assets/phone.png";
+import phone from "@/assets/phone-mockup-2.png";
 import logo from "@/assets/logo-purple.png";
 
 import playStoreLogo from "@/assets/playstore-logo.png";
@@ -460,7 +460,7 @@ export default function Home() {
                 </div>
               </div>
               <Image
-                alt="Iklaim"
+                alt="Phone Mockup 2"
                 className="w-[531px] h-[585px] mt-[-140px]"
                 src={phone}
               />
@@ -542,8 +542,8 @@ export default function Home() {
                 </div>
               </div>
               <Image
-                alt="Iklaim"
-                className="w-[306px] h-[379px] mt-[72px]"
+                alt="Phone Mockup 2"
+                className="w-[366px] h-[379px] mt-[72px]"
                 src={phone}
               />
             </div>
