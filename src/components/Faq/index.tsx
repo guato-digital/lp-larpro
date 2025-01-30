@@ -31,7 +31,7 @@ export function Faq() {
           </span>
 
           <div className="w-full flex flex-col mt-6 items-center lg:items-start">
-            <h1 className="text-2xl font-bold text-black-500 text-center lg:text-[44px]">
+            <h1 className="text-xl font-bold text-black-500 text-center lg:text-[44px]">
               Dúvidas Frequentes
             </h1>
           </div>
@@ -47,7 +47,7 @@ export function Faq() {
                   O LarPro é realmente gratuito?
                 </AccordionTrigger>
                 <AccordionContent>
-                  Yes. It adheres to the WAI-ARIA design pattern.
+                Sim, nosso aplicativo é 100% gratuito! Tanto clientes quanto prestadores de serviços podem se cadastrar sem custos, criar seus perfis e começar a usar a plataforma imediatamente. Não cobramos taxas para que você encontre profissionais qualificados, nem para que os prestadores divulguem seus serviços
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-2" onClick={() => setFaqSelected(2)}>
@@ -55,8 +55,7 @@ export function Faq() {
                   Como posso encontrar prestadores perto de mim?
                 </AccordionTrigger>
                 <AccordionContent>
-                  Yes. It comes with default styles that matches the other
-                  components&apos; aesthetic.
+                É simples! No app LarPro, você pode buscar prestadores pela sua localidade, garantindo praticidade e agilidade no atendimento.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-3" onClick={() => setFaqSelected(3)}>
@@ -64,8 +63,7 @@ export function Faq() {
                   Como faço para avaliar um prestador de serviço?
                 </AccordionTrigger>
                 <AccordionContent>
-                  Yes. Animated by default, but you can disable it if you
-                  prefer.
+                Após o serviço concluído, você poderá deixar uma avaliação, ajudando outros usuários e reconhecendo o bom trabalho do prestador.
                 </AccordionContent>
               </AccordionItem>
 
@@ -75,8 +73,7 @@ export function Faq() {
                   real?
                 </AccordionTrigger>
                 <AccordionContent>
-                  Yes. Animated by default, but you can disable it if you
-                  prefer.
+                  Não, o chat em tempo real está integrado ao aplicativo. Basta abrir o LarPro, selecionar o serviço desejado e começar a conversa diretamente com o prestador.
                 </AccordionContent>
               </AccordionItem>
 
@@ -85,8 +82,7 @@ export function Faq() {
                   Sou prestador. Como os clientes me encontram?
                 </AccordionTrigger>
                 <AccordionContent>
-                  Yes. Animated by default, but you can disable it if you
-                  prefer.
+                Ao se cadastrar no LarPro Prestadores, seu perfil estará visível para todos os clientes da sua região. É uma ótima maneira de conseguir mais visibilidade e aumentar sua clientela.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 // import { Logo } from "@/components/Logo";
 import Image from "next/image";
-import logoImage from "@/assets/logo.png";
+import logoImage from "@/assets/logo-no-name.png";
 import { MobileNavbar } from "@/components/MobileNavbar";
 import Link from "next/link";
 
@@ -61,7 +61,7 @@ export default function RootLayout({
           <div className="nav-content">
             <Image
               src={logoImage}
-              className="lg:w-[70px] lg:h-[90px] w-[34px] h-[43px]"
+              className="lg:w-[72px] lg:h-[51px] w-[50px] h-[43px]"
               alt="LarPró"
             />
             <ul className="hidden lg:flex gap-8">

@@ -9,7 +9,7 @@
     @apply w-full bg-primary flex py-3 lg:py-4 justify-center fixed z-50;
   }
   .nav-content {
-    @apply w-full max-w-screen-xl xl:px-7 lg:px-7 flex justify-between items-center px-6;
+    @apply w-full max-w-screen-xl xl:px-7 lg:px-7 flex justify-between items-center px-6 h-12;
   }
 }
 
