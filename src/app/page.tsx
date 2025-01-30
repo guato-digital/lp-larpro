@@ -18,6 +18,7 @@ import { CardIcon } from "@/components/CardIcon";
 
 import phoneImage from "@/assets/phone-mockup.png";
 import phoneCircle from "@/assets/phone-circle.png";
+import circle from "@/assets/purple-circle.png";
 import phoneCirclePink from "@/assets/phone-circle-pink.png";
 import phone from "@/assets/phone-mockup-2.png";
 import logo from "@/assets/logo-purple.png";
@@ -40,11 +41,11 @@ export default function Home() {
                 LARPRÓ
               </span>
               <div className="flex flex-col gap-4 mt-4">
-                <h1 className="text-[32px] font-bold text-black-500 w-full max-w-80 leading-[38px] lg:text-6xl lg:max-w-[665px] lg:leading-[72px]">
+                <h1 className="text-[32px] font-bold text-black-500 w-full max-w-80 leading-[38px] lg:text-5xl lg:max-w-[665px] lg:leading-[72px]">
                   Soluções para o seu dia a dia,{" "}
                   <span className="text-primary">a um toque</span>!
                 </h1>
-                <p className="text-black-150 text-base lg:text-xl">
+                <p className="text-black-150 text-base lg:text-lg">
                   Encontre eletricistas, encanadores, pintores, diaristas,
                   técnicos e muito mais. Tudo em um só lugar, com praticidade e
                   confiança!
@@ -56,9 +57,9 @@ export default function Home() {
                       alt="Baixe LarPró na PlayStore"
                       className="w-[27px] h-[30px]"
                     />
-                    <span className="flex flex-col text-[10px] lg:text-xs text-white text-left">
+                    <span className="flex flex-col text-[10px] lg:text-xxs text-white text-left">
                       Disponível na
-                      <p className="text-base lg:text-xl text-white font-bold">
+                      <p className="text-base lg:text-lg text-white font-bold">
                         Google Play
                       </p>
                     </span>
@@ -66,9 +67,9 @@ export default function Home() {
 
                   <button className="w-full max-w-48 py-2 px-4 bg-black-500 rounded-lg flex gap-3 items-center">
                     <AppStoreLogo />
-                    <span className="flex flex-col text-[10px] lg:text-xs text-white text-left">
+                    <span className="flex flex-col text-[10px] lg:text-xxs text-white text-left">
                       Disponível na
-                      <p className="text-base lg:text-xl text-white font-bold">
+                      <p className="text-base lg:text-lg text-white font-bold">
                         App Store
                       </p>
                     </span>
@@ -94,10 +95,10 @@ export default function Home() {
                 SERVIÇOS
               </span>
               <div className="flex flex-col gap-4 mt-4 lg:flex-row lg:mt-6">
-                <h1 className="text-2xl font-bold text-black-500 w-full max-w-80 leading-[38px] lg:w-1/2 lg:max-w-full lg:text-[40px]">
+                <h1 className="text-xl font-bold text-black-500 w-full max-w-80 leading-[38px] lg:w-1/2 lg:max-w-full lg:text-[40px]">
                   Precisa de ajuda em casa?
                 </h1>
-                <p className="text-black-150 text-base border-l-[2px] border-primary pl-3 lg:w-1/2 lg:max-w-full lg:text-xl">
+                <p className="text-black-150 text-sm border-l-[2px] border-primary pl-3 lg:w-1/2 lg:max-w-full lg:text-xl">
                   O LarPró conecta você aos melhores prestadores de serviços
                   para tudo o que você precisa:
                 </p>
@@ -140,7 +141,7 @@ export default function Home() {
               <h1 className="text-xl font-semibold text-black-500 w-full max-w-80 leading-8 lg:text-center lg:text-[32px] lg:max-w-full">
                 Tudo em um só lugar, fácil, rápido e seguro.
               </h1>
-              <p className="text-black-150 text-base mt-3 lg:text-center lg:text-xl lg:max-w-[900px]">
+              <p className="text-black-150 text-base mt-3 lg:text-center lg:text-xl lg:max-w-[900px] mb-16">
                 Com o LarPro, você acessa uma rede confiável de prestadores
                 avaliados por outros clientes e pode escolher pela sua
                 localidade.
@@ -148,12 +149,17 @@ export default function Home() {
             </FadeInSection>
 
             <FadeInSection>
-              <div className="w-full flex flex-col gap-4 mt-14 lg:flex-row lg:items-center">
-                <div className="hidden lg:flex w-full">
+              <div className="w-full flex flex-col gap-4 mt-14 lg:flex-row lg:items-center mt-28">
+                <div className="hidden relative lg:flex w-full">
+                  <Image
+                    src={circle}
+                    alt="LarPro - Benefícios"
+                    className="w-[400px] h-[400px]"
+                  />
                   <Image
                     src={phoneCircle}
-                    alt="LarPro - Benefícios"
-                    className="w-full"
+                    alt="LarPro - Benefícios 2"
+                    className="w-[400px] absolute bottom-0 right-[100] h-[500px]"
                   />
                 </div>
 
@@ -161,7 +167,7 @@ export default function Home() {
                   <span className="bg-primary/10 text-primary font-bold text-sm rounded-[100px] px-6 py-3 tracking-[2px]">
                     BENEFÍCIOS
                   </span>
-                  <h1 className="text-2xl font-bold text-black-500 w-full max-w-80 leading-8 mt-6 lg:text-[40px] lg:max-w-full">
+                  <h1 className="text-xl font-bold text-black-500 w-full max-w-80 leading-8 mt-6 lg:text-[40px] lg:max-w-full">
                     Por que escolher o LarPro?
                   </h1>
 
@@ -245,13 +251,17 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-
-                <div className="flex lg:hidden w-full">
+                <div className="relative lg:hidden w-full mt-28 justify-center flex">
+                  <Image
+                    src={circle}
+                    alt="LarPro - Benefícios"
+                    className="w-[300px] h-[300px]"
+                  />
                   <Image
                     src={phoneCircle}
-                    alt="LarPro - Benefícios"
-                    className="w-full"
-                  />
+                    alt="LarPro - Benefícios 2"
+                    className="w-[300px] absolute bottom-0 left-1/2 transform -translate-x-[35%] h-[400px]"
+                    />
                 </div>
               </div>
             </FadeInSection>
@@ -269,7 +279,7 @@ export default function Home() {
             <div className="w-full flex flex-col mt-6 items-center">
               {" "}
               <FadeInSection>
-                <h1 className="text-2xl font-bold text-black-500 text-center lg:text-[44px]">
+                <h1 className="text-xl font-bold text-black-500 text-center lg:text-[44px]">
                   LarPro Prestadores
                 </h1>
                 <p className="text-black-150 text-center text-base mt-4 lg:text-xl">
