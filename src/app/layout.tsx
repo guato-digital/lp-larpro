@@ -29,7 +29,7 @@ export default function RootLayout({
 
         <meta
           property="og:url"
-          content="https://lp-larpro-git-develop-guato-digitals-projects-c02ea4fe.vercel.app"
+          content="https://www.larproservice.com/"
         />
         <meta property="og:site_name" content="LarPró" />
         <meta property="og:type" content="website" />
@@ -40,7 +40,7 @@ export default function RootLayout({
         />
         <meta
           property="og:image"
-          content="https://lp-larpro-git-develop-guato-digitals-projects-c02ea4fe.vercel.app/favicon.ico"
+          content="https://www.larproservice.com/favicon.ico"
         />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -53,7 +53,7 @@ export default function RootLayout({
         />
         <meta
           name="twitter:image"
-          content="https://lp-larpro-git-develop-guato-digitals-projects-c02ea4fe.vercel.app/favicon.ico"
+          content="https://www.larproservice.com/favicon.ico"
         />
       </head>
       <body>
