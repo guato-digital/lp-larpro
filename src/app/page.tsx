@@ -33,10 +33,10 @@ import { Faq } from "@/components/Faq";
 export default function Home() {
   return (
     <>
-      <main className="pt-16 lg:pt-28">
+      <main className="pt-16 lg:pt-22">
         <section className="w-full flex justify-center px-6 xl:px-7 lg:px-7 pt-10 bg-header bg-center bg-cover">
           <div className="w-full max-w-screen-xl flex flex-col lg:flex-row">
-            <div className="flex flex-col lg:justify-center items-start">
+            <div className="flex flex-col justify-between lg:justify-center items-start">
               <span className="bg-primary/10 text-primary font-bold text-sm rounded-[100px] px-6 py-3 tracking-[2px] lg:-mt-40">
                 LARPRÓ
               </span>
@@ -77,8 +77,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="w-full mt-8 lg:mt-0 z-10">
-              <Image src={phoneImage} alt="LarPró - Celular" />
+            <div className="w-1/2 mt-8 lg:mt-0 z-10">
+              <Image className="h-[600px] w-[500px]" src={phoneImage} alt="LarPró - Celular" />
             </div>
           </div>
         </section>

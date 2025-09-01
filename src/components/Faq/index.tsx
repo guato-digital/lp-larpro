@@ -10,11 +10,11 @@ import {
 } from "@/components/ui/accordion";
 
 import faq0 from "@/assets/man-phone.png";
-import faq1 from "@/assets/faq/1.png";
-import faq2 from "@/assets/faq/2.png";
-import faq3 from "@/assets/faq/3.png";
-import faq4 from "@/assets/faq/4.png";
-import faq5 from "@/assets/faq/5.png";
+import faq1 from "@/assets/faq/faq1.png";
+import faq2 from "@/assets/faq/faq2.png";
+import faq3 from "@/assets/faq/faq3.png";
+import faq4 from "@/assets/faq/faq4.png";
+import faq5 from "@/assets/faq/faq5.png";
 import Image from "next/image";
 
 export function Faq() {
